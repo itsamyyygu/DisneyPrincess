@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Document</title>
+	<!-- TemplateEndEditable -->
+	<link rel="stylesheet" href="../css/layouy_style01.css">
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1 id="Disneylogo"><a href="../index.html" title="Disney Princesses首頁">Disney Princesses</a></h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="javascript:;" title="故事介紹">故事介紹</a></li>
+				<li><a href="javascript:;" title="主題曲">主題曲</a></li>
+				<li><a href="javascript:;" title="人物分析">人物分析</a></li>
+				<li><a href="javascript:;" title="名言佳句">名言佳句</a></li>
+				<li><a href="javascript:;" title="真人版電影">真人版電影</a></li>
+				<li><a href="javascript:;" title="活動資訊">活動資訊</a></li>
+			</ul>
+		</nav>
+		<section>
+			<h2>關於本站</h2>
+			<p>迪士尼一直是大朋友、小朋友的童年回憶，迪士尼一定是你們兒時記憶的一部分，其中大家最熟悉的就是迪士尼的童話故事，從白雪公主、睡美人、小美人魚都是大家的喜愛，那就讓我們回到童年時期的故事，也讓大家了解每一位公主</p>
+		</section>
+		<footer>迪士尼八大公主，哪位公主跟你最像呢? &copy; Copy All Right Reserved </footer>
+	</div>
+</body>
+</html>

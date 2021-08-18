@@ -1,0 +1,35 @@
+#storycontent{
+	width:85%;
+	background-color:rgba(255,255,255,0.5);
+	margin:2em auto;
+}
+#storycontent ul{
+	width: 100%;
+	background-color: rgba(139,163,219,0.35);
+	list-style: url(../images/photoLogosmall.png);
+	float: right;
+}
+#storycontent ul li{
+	width:200px;
+	float:left;
+	margin-left: 50px;
+	font-family:"微軟正黑體","標楷體","Arial";
+	font-size:1.4em;
+}
+#storycontent h3{
+	text-align: center;
+	font-family: "微軟正黑體","標楷體","Arial";
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+#storycontent p{
+	letter-spacing: 0.3em;
+	line-height: 2em;
+	/*text-align: center;*/
+	font-family: "微軟正黑體","標楷體","Arial";
+	padding-top: 20px;
+	padding: 0px 0px 20px 30px;
+}
+.imgsnowwhite{
+	float: right;
+}

@@ -1,0 +1,30 @@
+body,h1,h2,h3,h4,h5,h6,p,img,div,a,ul,ol,li,header,nav,section,article,footer{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+	margin:auto;
+}
+
+body{
+	background-color:rgba(217,201,235,1);	
+}
+h1{
+	color:rgb(0,0,0);
+	font-size: 1.2em;
+ 	font-family: "微軟正黑體","標楷體","Arial";
+ 	text-align: center;
+}
+p{
+	font-size: 0.8em;
+}
+/*響應是網頁的CSS，會是先從手機的開始,IPAD,電視*/
+@media screen and (min-width:481px) and (max-width: 768px){
+	body{
+	background-color:rgba(242,200,153,0.75);	
+	}
+
+	nav ul li a{
+		background-color: rgba(197,102,66,0.75);
+	}
+}

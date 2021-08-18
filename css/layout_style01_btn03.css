@@ -1,0 +1,123 @@
+body,h1,h2,h3,h4,h5,h6,p,img,div,a,ul,ol,li,header,nav,section,article,footer{
+	margin:0;
+	padding:0;
+}
+body{
+	color:rgba(0,0,0,1.00);
+	background-color:rgba(217,201,235,1);
+	font-size: 100%;
+	background-image: url(../images/bodyBg2.png);
+	background-repeat: repeat;
+}
+#wrapper{
+	margin: auto;
+}
+#wrapper,header,nav,section,footer{
+	width:1200px;
+}
+header,#Disneylogo,nav,section,footer{
+	float:left;
+}
+header{
+	background-image: url(../images/photoBg.jpg);
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#Disneylogo{
+	background-image: url(../images/photoLogo.png);
+	background-repeat: no-repeat;
+	width:300px;
+	height:120px;
+}
+#Disneylogo a{
+	width: 300px;
+	height: 120px;
+	display: block;
+	text-indent: -9999px;
+}
+nav{
+	height:50px;
+	background-image: url(../images/navBg.png);
+	/*X軸重複*/
+	background-repeat: repeat-x;	
+}
+nav ul {
+	list-style-type: none;
+	width:1080px;
+	margin:9px auto;
+}
+nav ul li{
+    width: 180px;
+    height: 35px;
+	float: left;
+}
+nav ul li a{
+	width:100%;
+	height:100%;
+	display:block;
+	text-indent: -9999px;
+	background-image: url(../images_btn2/BtnBtn.png);
+	background-repeat: no-repeat;
+}
+#navbtn01:link{background-position: -35px -11px}
+#navbtn01:visited{background-position: -35px -60px}
+#navbtn01:hover{background-position: -35px -110px}
+#navbtn01:active{background-position: -35px -160px}
+
+#navbtn02:link{background-position: -215px -11px}
+#navbtn02:visited{background-position: -215px -60px}
+#navbtn02:hover{background-position: -215px -110px}
+#navbtn02:active{background-position: -215px -160px}
+
+#navbtn03:link{background-position: -395px -11px}
+#navbtn03:visited{background-position: -395px -60px}
+#navbtn03:hover{background-position: -395px -110px}
+#navbtn03:active{background-position: -395px -160px}
+
+#navbtn04:link{background-position: -576px -11px}
+#navbtn04:visited{background-position: -576px -60px}
+#navbtn04:hover{background-position: -576px -110px}
+#navbtn04:active{background-position: -576px -160px}
+
+#navbtn05:link{background-position: -755px -11px}
+#navbtn05:visited{background-position: -755px -60px}
+#navbtn05:hover{background-position: -755px -110px}
+#navbtn05:active{background-position: -755px -160px}
+
+#navbtn06:link{background-position: -935px -11px}
+#navbtn06:visited{background-position: -935px -60px}
+#navbtn06:hover{background-position: -936px -110px}
+#navbtn06:active{background-position: -935px -160px}
+
+section{
+	min-height: 280px;
+	background-color: rgba(217,74,140,0.5);
+}
+section h2{
+	width:75%;
+    text-align: center;
+	font-family: "微軟正黑體","標楷體","Arial";
+	font-size: 1.6em;
+	letter-spacing: 0.5em;
+	border-top: 2px dashed rgba(255,255,255,1);
+	border-bottom: 2px dashed rgba(255,255,255,1);
+	margin: 1em auto;
+}
+/*section p{
+	font-family: "微軟正黑體","標楷體","Arial";
+	font-size: 1.2em;
+	letter-spacing: 0.5em;
+	margin:20px 50px;*/
+/*}*/
+footer{
+	height: 30px;
+	background-color: rgba(102,74,140,0.8);
+	color: rgb(0,0,0);
+	font-family: "微軟正黑體","標楷體","Arial";
+	font-size:1em;
+	text-align: center;
+	padding-top: 3px;
+	border-radius: 0px 0px 15px 15px;
+}
+

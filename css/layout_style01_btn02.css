@@ -1,0 +1,125 @@
+body,h1,h2,h3,h4,h5,h6,p,img,div,a,ul,ol,li,header,nav,section,article,footer{
+	margin:0;
+	padding:0;
+}
+body{
+	color:rgba(0,0,0,1.00);
+	background-color:rgba(217,201,235,1);
+	font-size: 100%;
+	background-image: url(../images/bodyBg2.png);
+	background-repeat: repeat;
+}
+#wrapper{
+	margin: auto;
+}
+#wrapper,header,nav,section,footer{
+	width:1200px;
+}
+header,#Disneylogo,nav,section,footer{
+	float:left;
+}
+header{
+	background-image: url(../images/photoBg.jpg);
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#Disneylogo{
+	background-image: url(../images/photoLogo.png);
+	background-repeat: no-repeat;
+	width:300px;
+	height:120px;
+}
+#Disneylogo a{
+	width: 300px;
+	height: 120px;
+	display: block;
+	text-indent: -9999px;
+}
+nav{
+	height:50px;
+	background-image: url(../images/navBg.png);
+	/*X軸重複*/
+	background-repeat: repeat-x;	
+}
+nav ul {
+	list-style-type: none;
+	width:1080px;
+	margin:9px auto;
+}
+nav ul li{
+    width: 180px;
+    height: 35px;
+	float: left;
+}
+nav ul li a{
+	width:100%;
+	height:100%;
+	display:block;
+	text-indent: -9999px;
+	text-align: center;
+}
+#navbtn01{ background-image: url(../images_btn1/btn_01.png); background-repeat: no-repeat;}
+#navbtn02{ background-image: url(../images_btn1/btn_02.png); background-repeat: no-repeat;}
+#navbtn03{ background-image: url(../images_btn1/btn_03.png); background-repeat: no-repeat;}
+#navbtn04{ background-image: url(../images_btn1/btn_04.png); background-repeat: no-repeat;}
+#navbtn05{ background-image: url(../images_btn1/btn_05.png); background-repeat: no-repeat;}
+#navbtn06{ background-image: url(../images_btn1/btn_06.png); background-repeat: no-repeat;}
+
+#navbtn01:hover{ background-image: url(../images_btn1/btn_07.png); background-repeat: no-repeat;}
+#navbtn02:hover{ background-image: url(../images_btn1/btn_08.png); background-repeat: no-repeat;}
+#navbtn03:hover{ background-image: url(../images_btn1/btn_09.png); background-repeat: no-repeat;}
+#navbtn04:hover{ background-image: url(../images_btn1/btn_10.png); background-repeat: no-repeat;}
+#navbtn05:hover{ background-image: url(../images_btn1/btn_11.png); background-repeat: no-repeat;}
+#navbtn06:hover{ background-image: url(../images_btn1/btn_12.png); background-repeat: no-repeat;}
+/*nav ul li a{
+    width:80%;
+    height:35px;
+	color:rgb(0,0,0);
+	font-size: 1.2em;
+ 	font-family: "微軟正黑體","標楷體","Arial";
+ 	text-decoration: none;
+ 	text-align: center;
+ 	background-color: rgba(36,96,163,0.5);
+ 	border-radius: 0px 25px 0px 25px;
+ 	display: block;
+ 	padding-top: 5px;
+ 	transition:all 0.5s linear;
+}
+nav ul li a:hover{
+	font-weight: bold;
+	background-color: rgba(217,74,140,0.5);
+	border-radius: 25px;
+	border:2px solid rgba(255,255,255,1);
+}*/
+section{
+	min-height: 280px;
+	background-color: rgba(217,74,140,0.5);
+}
+section h2{
+	width:75%;
+    text-align: center;
+	font-family: "微軟正黑體","標楷體","Arial";
+	font-size: 1.6em;
+	letter-spacing: 0.5em;
+	border-top: 2px dashed rgba(255,255,255,1);
+	border-bottom: 2px dashed rgba(255,255,255,1);
+	margin: 1em auto;
+}
+/*section p{
+	font-family: "微軟正黑體","標楷體","Arial";
+	font-size: 1.2em;
+	letter-spacing: 0.5em;
+	margin:20px 50px;*/
+/*}*/
+footer{
+	height: 30px;
+	background-color: rgba(102,74,140,0.8);
+	color: rgb(0,0,0);
+	font-family: "微軟正黑體","標楷體","Arial";
+	font-size:1em;
+	text-align: center;
+	padding-top: 3px;
+	border-radius: 0px 0px 15px 15px;
+}
+

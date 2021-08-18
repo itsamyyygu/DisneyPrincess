@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>迪士尼八大公主，哪位公主跟你最像呢?</title>
+	<link rel="stylesheet" href="../css/layout_style01.css">
+    <style>
+	#img_01,#img_02,#img_03,#img_04,#img_05,#img_06{
+		margin:10px -10px 10px 35px;
+	}
+	</style>
+    
+	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+<body onLoad="MM_preloadImages('../images_btn1/btn_07.png')">
+	<div id="wrapper">
+		<header>
+			<h1 id="Disneylogo"><a href="index.html" title="Disney Princesses首頁">Disney Princesses</a></h1>
+		</header>
+		<nav>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_01','','../images_btn1/btn_07.png',1)"><img src="../images_btn1/btn_01.png" width="160" height="35" id="img_01" alt="故事介紹"></a>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_02','','../images_btn1/btn_08.png',1)"><img src="../images_btn1/btn_02.png" width="160" height="35" id="img_02" alt="主題曲"></a>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_03','','../images_btn1/btn_09.png',1)"><img src="../images_btn1/btn_03.png" width="160" height="35" id="img_03" alt="人物分析"></a>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_04','','../images_btn1/btn_10.png',1)"><img src="../images_btn1/btn_04.png" width="160" height="35" id="img_04" alt="名言佳句"></a>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_05','','../images_btn1/btn_11.png',1)"><img src="../images_btn1/btn_05.png" width="160" height="35" id="img_05" alt="真人版電影"></a>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_06','','../images_btn1/btn_12.png',1)"><img src="../images_btn1/btn_06.png" width="160" height="35" id="img_06" alt="活動資訊"></a>
+		</nav>
+		<section>
+			<h2>關於本站</h2>
+			<p>迪士尼一直是大朋友、小朋友的童年回憶，迪士尼一定是你們兒時記憶的一部分，其中大家最熟悉的就是迪士尼的童話故事，從白雪公主、睡美人、小美人魚都是大家的喜愛，那就讓我們回到童年時期的故事，也讓大家了解每一位公主</p>
+		</section>
+		<footer>迪士尼八大公主，哪位公主跟你最像呢? &copy; Copy All Right Reserved </footer>
+	</div>
+</body>
+</html>
